@@ -5,7 +5,7 @@ import { appContext, type AppContextType } from "./ContextStore";
 
 @customElement('app-child-consumer')
 export class ContextChildConsumer extends LitElement {
-    @consume({ context: appContext})
+    @consume({ context: appContext, subscribe: true })
     private consumeContext?: AppContextType;
 
     render() {
