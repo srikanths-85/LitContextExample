@@ -13,3 +13,5 @@ import './TemplateLiteralExamples/Sample.js';
 //This import is for the demo application that shows how to use built-in directives in Lit.
 import './Built-in_Directives/ClassMapAndStyleMap.js'
 import './Built-in_Directives/RenderingList.js'
+
+import './CustomDirective/balance-input.js'
